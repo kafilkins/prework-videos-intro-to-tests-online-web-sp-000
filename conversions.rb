@@ -3,8 +3,8 @@ def ounces_to_grams(ounces)
   ounces.to_f * GRAMS_PER_OUNCE
 end
 
-GRAMS_PER_OUNCE = 36
+INCHES_PER_FOOT = 12
 
 def ounces_to_grams(ounces)
-  ounces.to_f * GRAMS_PER_OUNCE
+  ounces.to_f * INCHES_PER_FOOT
 end
